@@ -1,21 +1,24 @@
 #titulo-nav{
     margin: 0;
+    font-size: 20px;
 }
 
 .ordenar-header{
     display: flex;
-    gap: 51%;
-    width: 1078px;
-    height: 28px;
-    margin: 0 auto;
-    font-size: 20px;
-    box-sizing: border-box;
+    gap: 515px;
+    width: 1068px;
+    height: 40px;
+    margin: 42px 133px 0px;
+    
+    
 }
 
 .barra-de-navegacion{
     display: flex;
+    font-size: 12px;
     color: white;
-    gap: 30px;
+    gap: 44px;
+    padding: 0;
 }
 
 
@@ -23,23 +26,74 @@
 .barra-de-navegacion a{
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 19px;
+    
 }
-.Primera-caja{
+.Hero-Seccion{
     display: grid;
-    width: 1075px;
+    width: 1060px;
     height: 450px;
     box-sizing: border-box;
-    margin: 70px auto 0px;
+    margin: 85px 130px 0px;
     border: 1px solid white;
-    grid-template-columns: 615px 450px;
+    grid-template-columns: 2fr;
+    grid-template-rows:192px 56px 48px;
+    gap: 72px 40px; 
+
 }
 .titulo-1{
-    text-shadow: 0px 3px 5px rgb(0, 0, 0,0.2);
-    -webkit-text-stroke: 0.8px black;   
+    text-shadow: 1px 4px 1px rgb(0, 0, 0,0.4);
+    font-size: 32px;
+    border: 1px solid white;
+    text-align: left;
+    margin-top: 25px;
+    height: 192px;
+    
+    
+    
+}
+.titulo-1 h1{
+    line-height: 64px;
+    border:1px solid white ;
+    -webkit-text-stroke: 1px black;
+    margin: 0;
+    }
+    
+
+.descripcion-1{
+    border: 1px solid white;
+
+}
+.descripcion-1 p{
+    margin-bottom: 50px;
+}
+
+.descripcion-1 h1{
+    font-size: 16px;
+    border: 1px solid white;
+    background: #3F3434;
+    box-sizing:border-box;
+    width: 167px;
+    height: 48px ;
+    padding: 11px;
+    border-radius: 8px;
+    top: 524px;
+    text-align:  center;
 }
 
 
+.imagen-1{
+    grid-column: 2;
+    grid-row:1 / span 3 ;
+    border: 1px solid white;
+    width: 450px;
+    height: 450px;
+}
+.imagen-1 img{
+    width: 450px;
+    height: 450px;
+
+}
 
 html{
     background-color: #A31717;
