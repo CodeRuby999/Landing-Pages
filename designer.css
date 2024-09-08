@@ -35,18 +35,16 @@
     height: 450px;
     box-sizing: border-box;
     margin: 85px 130px 0px;
-    border: 1px solid white;
     grid-template-columns: 2fr;
     grid-template-rows:192px 56px 48px;
-    gap: 72px 40px; 
+    gap: 60px 40px; 
 
 }
 .titulo-1{
-    text-shadow: 1px 4px 1px rgb(0, 0, 0,0.4);
+    text-shadow: 1px 4px 6px rgba(0, 0, 0, 0.4);
     font-size: 32px;
-    border: 1px solid white;
     text-align: left;
-    margin-top: 25px;
+    margin-top: 50px;
     height: 192px;
     
     
@@ -54,23 +52,17 @@
 }
 .titulo-1 h1{
     line-height: 64px;
-    border:1px solid white ;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1.5px rgb(22, 22, 22);
     margin: 0;
     }
     
-
-.descripcion-1{
-    border: 1px solid white;
-
-}
 .descripcion-1 p{
-    margin-bottom: 50px;
+    margin-bottom: 45px;
+    font-size: 19px;
 }
 
 .descripcion-1 h1{
     font-size: 16px;
-    border: 1px solid white;
     background: #3F3434;
     box-sizing:border-box;
     width: 167px;
@@ -79,13 +71,13 @@
     border-radius: 8px;
     top: 524px;
     text-align:  center;
+    
 }
 
 
 .imagen-1{
     grid-column: 2;
     grid-row:1 / span 3 ;
-    border: 1px solid white;
     width: 450px;
     height: 450px;
 }
@@ -93,6 +85,51 @@
     width: 450px;
     height: 450px;
 
+}
+
+.Companies-Seccion{
+    display: flex;
+    flex-direction: column;
+    margin: 120px auto 180px;
+    width:915px;
+    height: 150px;
+}
+
+.info{
+    text-align: center;
+    color:#667085;
+    font-size: 17px;
+}
+
+.Companies{
+    display: flex;
+    background: #857978;
+    gap: 107px;
+    border-radius: 8px;
+    height: 86px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    
+}
+.Spotify{
+    width: 170px;
+    height: 45px;
+   
+}
+.slack{
+    width: 120px;
+    height: 48px;
+   
+}
+.Dropbox{
+    width: 170px;
+    height: 48px;
+   
+}
+.zoom{
+    width: 97.9px;
+    height: 48px;
+   
 }
 
 html{
