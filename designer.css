@@ -38,7 +38,6 @@
     grid-template-columns: 2fr;
     grid-template-rows:192px 56px 48px;
     gap: 60px 40px; 
-
 }
 .titulo-1{
     text-shadow: 1px 4px 6px rgba(0, 0, 0, 0.4);
@@ -57,23 +56,28 @@
     }
     
 .descripcion-1 p{
-    margin-bottom: 45px;
+    margin-bottom: 52px;
     font-size: 19px;
+    width: 520px;
 }
 
-.descripcion-1 h1{
-    font-size: 16px;
+.descripcion-1 a{
+    text-decoration: none;
+    font-size: 17px;
     background: #3F3434;
-    box-sizing:border-box;
-    width: 167px;
-    height: 48px ;
-    padding: 11px;
+    padding: 13px 32px;
+    font-weight: 500;
     border-radius: 8px;
     top: 524px;
     text-align:  center;
-    
+    color: white;
+    box-sizing: border-box  ;
 }
 
+.descripcion-1 a :hover{
+    background-color: rgb(235, 217, 217);
+    
+}
 
 .imagen-1{
     grid-column: 2;
@@ -90,7 +94,7 @@
 .Companies-Seccion{
     display: flex;
     flex-direction: column;
-    margin: 120px auto 180px;
+    margin: 120px auto 0px;
     width:915px;
     height: 150px;
 }
@@ -131,6 +135,61 @@
     height: 48px;
    
 }
+
+.Branding-Section{
+    display: grid;
+    width:1065px;
+    height: 450px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin: 150px 130px 50px;
+    gap: 0px 80px;
+}
+
+.imagen-2{
+    grid-row: 1 / span 2;
+}
+
+.imagen-2 img{
+    width: 450px;
+    height: 450px;
+}
+
+.titulo-2{
+    grid-column: 2;
+    font-size: 31px;
+    
+   
+}
+
+.titulo-2 h2{
+    width: 435.69px;
+    height: 102.35px;
+    line-height: 48px ;
+    margin-top: 80px;
+    padding-left: 50px;
+    font-weight: 650;
+
+
+}
+
+.descripcion-2{
+    grid-column: 2;
+    font-size: 17px;
+    padding: 0;
+}
+
+.descripcion-2 p{
+    width: 390px;
+    height: 83.16px;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 0;
+}
+
+
+
+
 
 html{
     background-color: #A31717;
