@@ -1,23 +1,23 @@
 #titulo-nav{
     margin: 0;
     font-size: 20px;
+    font-weight: 600;
 }
 
 .ordenar-header{
     display: flex;
-    gap: 515px;
+    gap: 495px;
     width: 1068px;
     height: 40px;
-    margin: 42px 133px 0px;
-    
+    margin: 45px 133px 0px;
     
 }
 
 .barra-de-navegacion{
     display: flex;
-    font-size: 12px;
+    font-weight: 300;
     color: white;
-    gap: 44px;
+    gap: 47px;
     padding: 0;
 }
 
@@ -26,7 +26,7 @@
 .barra-de-navegacion a{
     text-decoration: none;
     color: white;
-    font-size: 19px;
+    font-size: 18px;
     
 }
 .Hero-Seccion{
@@ -34,36 +34,47 @@
     width: 1060px;
     height: 450px;
     box-sizing: border-box;
-    margin: 85px 130px 0px;
+    margin: 80px 130px 0px;
     grid-template-columns: 2fr;
     grid-template-rows:192px 56px 48px;
     gap: 60px 40px; 
 }
 .titulo-1{
-    text-shadow: 1px 4px 6px rgba(0, 0, 0, 0.4);
+    text-shadow: 
+    -1px -1px 0px black,
+    1px 1px 0px black,
+    1px -1px 0px black,
+    -1px 1px 0px black,
+    1px 4px 6px rgba(0, 0, 0, 0.4);
     font-size: 32px;
     text-align: left;
     margin-top: 50px;
     height: 192px;
-    
-    
+    width: 560px;
+    letter-spacing: 1.2px;
     
 }
 .titulo-1 h1{
     line-height: 64px;
-    -webkit-text-stroke: 1.5px rgb(22, 22, 22);
     margin: 0;
+    font-weight: 700;  
+    font-family: 'Inter';
     }
     
 .descripcion-1 p{
     margin-bottom: 52px;
-    font-size: 19px;
+    font-size: 17.8px;
     width: 520px;
+    font-weight: 285;
+    line-height:28px;
+    width: 485px;
+    letter-spacing: 0.3px;
+
 }
 
 .descripcion-1 a{
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
     background: #3F3434;
     padding: 13px 32px;
     font-weight: 500;
@@ -71,7 +82,7 @@
     top: 524px;
     text-align:  center;
     color: white;
-    box-sizing: border-box  ;
+    box-sizing: border-box;
 }
 
 .descripcion-1 a :hover{
@@ -158,15 +169,15 @@
 .titulo-2{
     grid-column: 2;
     font-size: 31px;
-    
-   
+    height: 150px;
+    margin: auto;
 }
 
 .titulo-2 h2{
     width: 435.69px;
     height: 102.35px;
     line-height: 48px ;
-    margin-top: 80px;
+    margin-top: 60px;
     padding-left: 50px;
     font-weight: 650;
 
@@ -175,24 +186,162 @@
 
 .descripcion-2{
     grid-column: 2;
-    font-size: 17px;
+    font-size: 16px;
     padding: 0;
 }
 
 .descripcion-2 p{
-    width: 390px;
+    width: 370px;
     height: 83.16px;
     margin: 0;
     padding-left: 50px;
     padding-right: 0;
+    line-height: 28px;
+    font-weight: 250;
 }
 
+.Custom-section{
+    display: grid;
+    width: 1052px;
+    height: 427px;
+    margin: 50px auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,2fr);
+    
+}
 
+.Titulo-Custom-section{
+    text-align: center;
+    padding-bottom: 145px;
+    grid-column: 1 / span 3; 
+    grid-row: 1;   
+    font-size: 24px;
+    letter-spacing: 1.7px;
+}
 
+.Primera-Tarjeta{
+    width: 308px;
+    height: 191.1px;
+    border: 1px solid white;
+    grid-row: 2;
+    grid-column: 1;
+    border: 1px solid white;
+    background: #FFFFFF;
+    color: black;
+    border-radius: 10px;
+    padding: 16.5px 0 0 17px;
+    box-sizing: border-box;
+}
 
+.Primera-Tarjeta img{
+    padding: 8.5px 11px;
+    border-radius: 10px;
+    background: #FFDED4;
+    margin-bottom: 9.5px ;
+}
+
+.titulo-tarjeta-1{
+    font-family:'Hind Vadodara' system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14.5px;
+    color: #331B3B;
+    font-weight: 870;
+    line-height: 21.97px;
+    letter-spacing: 0.8px;
+    margin-bottom: 6px;
+}
+
+.descripcion-tarjeta-1{
+    font-family:'Hind Vadodara' system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-weight: 350;
+    color: #331B3BA8;
+    font-size: 14px;
+    width: 250px;
+    line-height: 21.6px;
+}
+
+.Segunda-Targeta{
+    width: 308px;
+    height: 191.1px;
+    border: 1px solid white;
+    grid-row: 2;
+    grid-column: 2;
+    background: #FFFFFF;
+    color: black;
+    border-radius: 10px;
+    padding: 16.5px 0 0 17px;
+    box-sizing: border-box;
+
+}
+
+.Segunda-Targeta img{
+    border-radius: 10px;
+    background: #FFDED4;
+    margin-bottom: 9.5px ;
+}
+
+.titulo-tarjeta-2{
+    font-family:'Hind Vadodara' system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14.5px;
+    color: #331B3B;
+    font-weight: 870;
+    line-height: 21.97px;
+    letter-spacing: 0.8px;
+    margin-bottom: 6px;
+
+}
+
+.descripcion-tarjeta-2{
+    font-family:'Hind Vadodara' system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-weight: 350;
+    color: #331B3BA8;
+    font-size: 14px;
+    width: 250px;
+    line-height: 21.6px;
+}
+
+.Tercera-Tarjeta{
+    width: 308px;
+    height: 191.1px;
+    border: 1px solid white;
+    grid-row: 2;
+    grid-column: 3;
+    background: #FFFFFF;
+    color: black;
+    border-radius: 10px;
+    padding: 16.5px 0 0 17px;
+    box-sizing: border-box;
+
+}
+
+.Tercera-Tarjeta img{
+    background-color: #D4F0FF;
+    border-radius: 10px;
+    margin-bottom: 9.5px ;
+    padding: 5.3px 6.5px 0 9px;
+}
+.titulo-tarjeta-3{
+    font-family:'Hind Vadodara' system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14.5px;
+    color: #331B3B;
+    font-weight: 870;
+    line-height: 21.97px;
+    letter-spacing: 0.8px;
+    margin-bottom: 6px;
+
+}
+
+.descripcion-tarjeta-3{
+    font-family:'Hind Vadodara' system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-weight: 350;
+    color: #331B3BA8;
+    font-size: 14px;
+    width: 250px;
+    line-height: 21.6px;
+
+}
 
 html{
     background-color: #A31717;
     color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'Inter',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
