@@ -1,7 +1,8 @@
-#titulo-nav{
+.TITULO-PAG{
     margin: 0;
     font-size: 20px;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .ordenar-header{
@@ -11,6 +12,14 @@
     height: 40px;
     margin: 45px 133px 0px;
     
+}
+
+.boton-hamburguesa{
+    display: none;
+}
+
+input{
+    display: none;
 }
 
 .barra-de-navegacion{
@@ -85,10 +94,6 @@
     box-sizing: border-box;
 }
 
-.descripcion-1 a :hover{
-    background-color: rgb(235, 217, 217);
-    
-}
 
 .imagen-1{
     grid-column: 2;
@@ -199,6 +204,10 @@
     padding-right: 0;
     line-height: 28px;
     font-weight: 250;
+}
+
+.descripcion-2-repetido{
+    display: none;
 }
 
 .Custom-section{
@@ -507,4 +516,348 @@ html{
 body{
     margin: 0;
     padding: 0;
+}
+
+
+
+
+/* media quierie Para dispositivos moviles */
+
+
+@media (width <= 480px){
+
+    .TITULO-PAG {
+        text-transform: capitalize;
+        font-size: 16px;
+        letter-spacing: 0.3px;
+        font-weight: 650;
+    }
+
+    .barra-de-navegacion{
+        display: none;
+        flex-direction: column;
+    }
+
+    .boton-hamburguesa{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left:420px;
+        font-size: 25px;
+        width: 27px;
+        height: 26px;
+        background-color: black;
+        padding: 4px 2px;
+        box-sizing: border-box;
+        gap: 6.5px;
+        top: 50px;
+
+
+    }
+
+    .linea-boton-hamburguesa{
+        width: 22px;
+        height: 1.3px;
+        background-color: white;
+        box-sizing: border-box;
+    }
+
+
+    .ordenar-header{
+        flex-direction: column;
+        margin-left: 30px ;
+        margin-top: 55px;
+        width: 300px;
+
+    }
+
+    .Hero-Seccion{
+        margin: 30px 0 0px 0px;
+        box-sizing: border-box;
+        width: 450px;
+        height: 665px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 120px 56px 15px 358px;
+    
+    }
+
+    .titulo-1{
+        width: 450px;
+        
+    }
+
+    .titulo-1 h1 {
+        text-align: center;
+        box-sizing: border-box;
+        width: 465px;
+        line-height: 44px;  
+        height: 120px;
+        font-size: 42px;
+        text-shadow: none;
+        grid-column: 1;
+        grid-row: 1;
+        height: 200px;
+        padding-top: 30px;
+        padding-left: 10px;
+    }
+
+    .descripcion-1 p{
+        grid-column: 1;
+        grid-row: 2;
+        width: 380px;
+        height: 56px;
+        margin-top: 55px;
+        text-align: center;
+        line-height: 25px;
+        margin-bottom: 38px;
+        margin-left: 48px;
+        font-size: 15.5px;
+        font-weight: 300;
+    }
+
+
+    .descripcion-1 a {
+        background-color: black;
+        font-weight: 420;
+        margin-left: 170px;
+        padding: 9px 25px;
+        font-size: 14px;
+    }
+
+    .imagen-1{
+        width: 420px;
+        height: 420px;
+        grid-column: 1;
+        grid-row: 4;
+        margin-top: 30px;
+        margin-left: 29px;
+    }
+
+    .imagen-1 img {
+        width: 420px;
+        height: 420px;
+    }
+
+    .Companies-Seccion{
+        height: 150px;
+        width: 445px;
+        margin: 300px 15px ;
+        margin-bottom: 100px;
+        box-sizing: content-box;
+    }
+
+    .info{
+        font-size: 16px;
+        
+
+    }
+
+
+    .Companies{
+        background: #331B3B;
+        gap: 40px;
+        height: 150px;
+        box-sizing: content-box;
+        padding: 20px 5px ;
+    }
+        
+    
+    .Spotify{
+        width: 75px;
+        height: 27px;
+        margin: auto;
+        
+       
+    }
+    .slack{
+        width: 75px;
+        height: 27px;
+        margin: auto;
+       
+    }
+    .Dropbox{
+        width: 90px;
+        height: 27px;
+        margin: auto;
+       
+    }
+
+    .zoom{
+        width: 70px;
+        height: 27px;
+        margin: auto;
+    } 
+
+    .Branding-Section{
+        grid-template-columns: 380px;
+        grid-template-rows: repeat(3,1fr);
+        margin: 0 50px;
+        width: 380px;
+        
+    }
+
+   .titulo-2{
+    grid-column: 1;
+    grid-row: 1;
+    width: 380px;
+    font-size: 25px;
+    text-align: center;
+
+
+   }
+
+   .titulo-2 h2{
+    line-height: 38px;
+    margin: 0;
+    padding: 0;
+    width: 380px;
+   }
+
+   .descripcion-2{
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+    width: 380px;
+    margin: 0;
+
+   }
+
+   .descripcion-2 p{
+    padding: 0;
+    margin-top: 0;
+    font-size: 14px ;
+    
+    
+   }
+
+    .imagen-2{
+        grid-column: 1;
+        grid-row: 3;
+        
+    }
+
+    .imagen-2 img{
+        width: 375px;
+        height: 384px;
+        margin-top: 50px;
+    }
+    .Custom-section{
+        grid-template-columns: 380px;
+        grid-template-rows: repeat(4,1fr);
+        width: 380px;
+        margin-top: 350px;
+    }
+
+    .Titulo-Custom-section{
+        grid-column: 1;
+        grid-row: 1;
+        font-size: 18px;
+        letter-spacing: 2px;
+        line-height: 35px;
+        height: 10px;
+    }
+
+    .descripcion-2-repetido{
+        display: flex;
+        grid-column: 1;
+        grid-row: 2;
+        margin: 0;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+    
+    .Primera-Tarjeta{
+        grid-column: 1;
+        grid-row: 3;
+        margin-left: 35px;
+        margin-bottom: 15px;
+    }
+
+    .Segunda-Targeta{
+        grid-column: 1;
+        grid-row: 4;
+        margin-left: 35px;
+
+    }
+    .Tercera-Tarjeta{
+        display: none;
+    }
+
+    .Contact-section{
+        flex-direction: column ;
+        width: 379px;
+        height: 350px;
+        grid-template-columns:379px;
+        grid-template-rows:repeat(3,1fr);
+        margin-top: 230px;
+        background: #331B3B;
+    }
+
+    .Contact-section img{
+        display: none;
+    }
+
+    .Titulo-Contact-section{
+        margin: 0px 65px;
+        width:250px;
+        font-size: 21px;
+        letter-spacing: 1.5px;
+        text-align: center;
+        line-height: 30px;
+        font-weight: 150;
+    }
+
+    .descripcion-contact-section{
+        text-align: center;
+        margin: 35px 15px;
+    }
+
+    .boton-contact-section a{
+        margin: 35px 100px;
+        background-color: black
+    }
+
+    .Footer{
+        grid-template-columns: 1;
+        grid-template-rows:repeat(4,1fr);
+        background: #331B3B;
+        width: 500px;
+        height: 100% ;
+        text-align: center;
+
+
+    }
+    .Primera-columna{
+        grid-column: 1;
+        grid-row: 1;
+        padding: 0 8px;
+        
+
+    }
+    .Segunda-columna{
+        grid-column: 1;
+        grid-row: 2;
+        padding: 0 30px;
+    }
+
+    .Tercera-columna{
+        grid-column: 1;
+        grid-row: 3;
+        padding: 0 70px;
+
+    }
+    .Cuarta-columna{
+        grid-column: 1;
+        grid-row: 4;
+        padding: 0 50px;
+
+    }
+  
+    body{
+        margin: 0;
+        padding: 0;
+    }
 }
